@@ -1,0 +1,104 @@
+body {
+  background-color: #f3f5f4;
+  font-family: 'Libre Caslon Text', serif;
+  color: #575f7d;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  width: 600px;
+}
+
+.image-circle{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3)
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.button-green{
+  background-color: #95E06C;
+  color: black;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.button-green:hover{
+  background-color: black;
+  color: #95E06C;
+}
+
+h1 {
+  color: #4caf50;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 30px;
+  line-height: normal,
+}
+
+h2 {
+   color: #0077b5;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 20px;
+  line-height: normal,
+}
+
+a {
+  color: #0077b5;
+  text-decoration: none;
+
+}
+
+.fa-facebook:hover{
+  color: #4267b2;
+}
+
+.fa-instagram:hover{
+  color: #db316e;
+}
+
+.fa-github:hover{
+  color: #24292d;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
